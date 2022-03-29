@@ -3,7 +3,7 @@ sql alchemy playground base
 
 ---
 
-Initial data at `init.sql`
+Initial data at `init.sql` for **PostgreSQL**
 
 ## To run database and fill it with initial data
 ```shell
