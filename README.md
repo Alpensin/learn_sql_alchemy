@@ -12,4 +12,4 @@ docker build -t sql_alchemy_test_db_img . && docker run -p 5432:5432 --name sql_
 ---
 That gives us simple **_Post_** and **_User_** models for experiments
 
-Example at `basic_sql_models.py`
+Example at `basic_sqlalchemy_usage.py`
