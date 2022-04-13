@@ -26,7 +26,7 @@ class Post(Base):
     __tablename__ = 'posts'
     id = Column(Integer, primary_key=True)
     title = Column(String(100), nullable=False)
-    slug = Column(String(100), nullable=False)
+    slug = Column(String(100), nullable=False, unique=True)
     content = Column(String(50), nullable=False)
     published = Column(String(200), nullable=False, default=False)
     user_id = Column(Integer(), nullable=False)
